@@ -139,7 +139,7 @@ st.markdown(
 with st.sidebar:
   st.markdown("### 📐 Vengeance // AlphaLens")
   api_key = st.text_input(
-      "NVIDIA API Key", value="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", type="password"
+      "NVIDIA API Key", value="", type="password"
   )
   model_name = "nvidia/nemotron-3-super-120b-a12b"
 
